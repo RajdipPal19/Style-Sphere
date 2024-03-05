@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Prompt:wght@100&display=swap');
+ */
+ /* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant+Garamond:ital,wght@0,300;1,700&family=Lora&family=Marko+One&family=Open+Sans&family=Peddana&family=Prompt:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Prompt:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant+Garamond:ital,wght@0,300;1,700&family=Marko+One&family=Peddana&family=Prompt:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant+Garamond:ital,wght@0,300;1,700&family=Lora&family=Marko+One&family=Peddana&family=Prompt:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant+Garamond:ital,wght@0,300;1,700&family=Lora&family=Marko+One&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans&family=Peddana&family=Prompt:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    /* background-image: url('assets/bg2.jpg'); */
+    /* background: linear-gradient(white, #f4b805); */
+    /* background-color: white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Nunito sans';
+    font-size: 20px;
+    /* text-shadow: 4px 4px 4px #aaa; */
+  
+
+}
+
+a {
+    text-decoration: none;
+}

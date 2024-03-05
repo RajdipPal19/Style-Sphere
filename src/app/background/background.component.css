@@ -1,0 +1,43 @@
+ 
+  .background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background-image: url('/assets/current.png');
+    background-size: cover;
+    animation: zigzagBackground 14s ease-in-out infinite; 
+  }
+  
+@keyframes zigzagBackground {
+  0%, 100% {
+      background-image: url('/assets/current.png');
+      filter: brightness(0.7);
+      background-position: 0% 0%;
+  }
+  50% {
+      background-image: url('/assets/cart.jpg');
+      filter: brightness(0.7);
+      background-position: 100% 0%;
+  }
+  75% {
+      background-image: url('/assets/cart2.jpg');
+      filter: brightness(0.7);
+      background-position: 100% 100%;
+  }
+  25% {
+      background-image: url('/assets/order.png');
+      filter: brightness(0.7);
+      background-position: 0% 100%;
+  }
+}
+
+.element {
+  background-image: url('/assets/current.png');
+  background-size: cover;
+  animation: zigzagBackground 8s ease-in-out infinite;
+}
+
+
+  
+  

@@ -1,0 +1,39 @@
+header {
+    background-color: #ffffff;
+    padding: 0;
+    width: 100%; /* Set the width to 100% of the parent container */
+    height: 68px; /* Set the height to 60 pixels (adjust as needed) */
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    height: 100%;
+}
+a:hover{
+    background-color: #f41d1d;
+    color: #f9f9f9;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+a.logo{
+    font-weight: bold;
+    padding: 2em;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+    /* border-left:black solid 2px;
+    border-right:black solid 2px; */
+    margin-right: 10px;
+}
+

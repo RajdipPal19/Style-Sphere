@@ -1,0 +1,98 @@
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+   
+  }
+  
+.container>*{
+    min-width: 25rem;
+    max-width: 40rem;
+}
+img{
+    flex: 1 0;
+    object-fit: cover;
+    height: 28rem;
+    margin: 1rem;
+    /* border: 5px solid #008060;*/
+    border-radius: 1.5rem; 
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+.details{
+    background-color: rgba(198, 198, 198, 0.8); /* Opacity white color */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    /* border: 5px solid #008060; */
+    /* border-radius: 1rem; */
+    padding: 2rem;
+    color: black;
+    margin-left: 1rem;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); /* Black box shadow on all sides */
+}
+.details .header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.details .name{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.details .favorite{
+    font-size: 2.5rem;
+}
+.details .origins{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+.details .origins>span{
+    padding: .5rem;
+    font-size: 1.2rem;
+    margin: .5rem .5rem .5rem 0;
+    border-radius: 2rem;
+    background-color: gray;
+    color: white;
+}
+.details .cook-Time{
+    margin: 1rem;
+
+}
+.details .cook-Time span{
+    padding: .6rem 2rem .6rem 0;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+}
+.details .price{
+    font-size: 1.8rem;
+    margin: 1rem 1rem 1rem 0;
+    color: #000000;
+    font-weight: bold;
+}
+.details .price::before{
+    content: "Price: ";
+    color: #000605;
+}
+.details button{
+    color: white;
+    background-color: #f41d1d;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 10rem;
+}
+.details button:hover{
+    color: #f41d1d;
+    background: linear-gradient(#b65b5b, white);
+    border:solid #ff8c8c;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 5px 3px #ffffff;
+}
