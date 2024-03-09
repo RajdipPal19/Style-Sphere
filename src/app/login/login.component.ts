@@ -13,8 +13,8 @@ export class LoginComponent {
   };
 
   constructor(private router: Router) { } 
-  onSubmit() {
-    if (this.userData.username === 'raj' && this.userData.password === 'dip'|| true) {
+  onSubmit() {//I didn't use authentiaction, thats why it is true always
+    if (true) {//this.userData.username === 'raj' && this.userData.password === 'dip'
       console.log('Login successful');
       alert("Login successfully")
       this.router.navigate(['/home']);
